@@ -1,0 +1,26 @@
+.excel-grid-wrapper {
+    max-height: calc(100vh - 120px);
+    border-radius: var(--radius-medium);
+    box-shadow: var(--shadow-small);
+}
+
+.excel-table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.excel-th-corner {
+    width: 40px;
+    background-color: var(--muted);
+    border: 1px solid var(--border);
+}
+
+.excel-th-header {
+    min-width: 80px;
+    text-align: center;
+    background-color: var(--muted);
+    border: 1px solid var(--border);
+    color: var(--muted-foreground);
+    font-weight: 600;
+}

@@ -1,0 +1,47 @@
+.excel-cell {
+    border: 1px solid var(--border);
+    padding: 0;
+    height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    transition: none !important;
+    transform: none !important;
+    background-color: var(--background);
+    color: var(--foreground);
+}
+
+.excel-cell.active {
+    border: 2px solid var(--primary);
+    box-sizing: border-box;
+    position: relative;
+    z-index: 10;
+}
+
+.excel-cell-input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0 4px;
+    margin: 0;
+    transition: none !important;
+    transform: none !important;
+}
+
+.excel-cell-input:focus {
+    transition: none !important;
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+.excel-cell-view {
+    padding: 4px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transition: none !important;
+    transform: none !important;
+}
